@@ -1,0 +1,76 @@
+html {
+  background-color:antiquewhite; 
+height: 1000px;
+	  
+}
+body {
+   background: rgba(54, 25, 25, .1); 
+
+}
+
+.navbar-default {
+	background-color: #99ccff;
+	border-radius: 1;
+	background-image: none;
+		
+}
+.navbar-default .navbar-brand {
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	color: #ebd122;   
+}
+
+.navbar-default .navbar-nav > li > a{
+	color: #fff;
+	font-size: 20px;
+}
+
+.navbar-header .navbar-toggle {
+	color: #585f66;
+}
+
+.navbar-header .navbar-toggle:hover,
+.navbar-header .navbar-toggle:focus {
+	background-color:black;
+}
+.jumbotron {
+	height: 150px ;
+    background-color: rgba(200, 125, 125, .30); 
+  
+}
+
+head{
+    color:aqua;
+}
+
+div {
+			
+}
+.photo img{
+    height: 1800px;
+}
+
+#div-main {
+	background-color: #585f66;
+}
+
+#div-main p {
+	color: #fff;
+}
+
+.portfolio-thumbnail {
+	background: rgba(54, 25, 25, .1); 
+	border-width: 2px;
+	border-style: inherit;
+	border-color: #bdccdb;
+}
+
+.portfolio-thumbnail img {
+	height: 400px;
+}
