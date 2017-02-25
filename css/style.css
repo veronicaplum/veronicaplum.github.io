@@ -1,5 +1,5 @@
 html {
-  background-color:antiquewhite; 
+  background-color:	#f2f2f2; 
 height: 1000px;
 	  
 }
@@ -7,15 +7,26 @@ body {
    background: rgba(54, 25, 25, .1); 
 
 }
+.main-navbar {
+	background-color:#98e6d3;
+}
+.navbar-brand {
+	color:#73264d;
+}
+.jumbotron {
+	height: 150px ;
+    background-color:#ffd480; 
+  
+}
+
 
 .navbar-default {
-	background-color: #99ccff;
+	background-color: #ffd480;
 	border-radius: 1;
-	background-image: none;
 		
 }
 .navbar-default .navbar-brand {
-	color: white;
+	background-color: #00cca3;
 	font-size: 20px;
 	font-weight: bold;
 }
@@ -23,7 +34,7 @@ body {
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-	color: #ebd122;   
+	color: #00cca3;   
 }
 
 .navbar-default .navbar-nav > li > a{
@@ -32,42 +43,38 @@ body {
 }
 
 .navbar-header .navbar-toggle {
-	color: #585f66;
+	color: #00cca3;
 }
 
 .navbar-header .navbar-toggle:hover,
 .navbar-header .navbar-toggle:focus {
 	background-color:black;
 }
-.jumbotron {
-	height: 150px ;
-    background-color: rgba(200, 125, 125, .30); 
-  
-}
+
 
 head{
     color:aqua;
 }
 
 div {
-			
+	color: #ac3973;
 }
 .photo img{
     height: 1800px;
 }
 
 #div-main {
-	background-color: #585f66;
+	
 }
 
 #div-main p {
-	color: #fff;
+	color: #98e6d3;
 }
 
 
 
 .portfolio-thumbnail {
-	background: rgba(54, 25, 25, .1); 
+	background: #98e6d3;
 	border-width: 2px;
 	border-style: inherit;
 	border-color: #bdccdb;
