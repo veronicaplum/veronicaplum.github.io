@@ -1,59 +1,47 @@
 html {
-  background-color:	#f2f2f2; 
-height: 1000px;
-	  
+   background: rgb(230, 225, 225); 
 }
 body {
-   background: rgba(54, 25, 25, .1); 
-
+  background: rgb(230, 225, 225); 
+;
 }
 .main-navbar {
-	background-color:#98e6d3;
+	background-color:#6AABB7;
 }
 .navbar-brand {
-	color:#73264d;
+	color: #ffd480;
 }
 .jumbotron {
 	height: 150px ;
-    background-color:#ffd480; 
+    background-color: #ffd480; 
+    color:  #945d60 #23527c;
+
   
 }
 
 
-.navbar-default {
-	background-color: #ffd480;
-	border-radius: 1;
-		
-}
-.navbar-default .navbar-brand {
-	background-color: #00cca3;
-	font-size: 20px;
-	font-weight: bold;
-}
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-	color: #00cca3;   
+.navbar-default .navbar-nav > li > a:focus {	 
 }
 
 .navbar-default .navbar-nav > li > a{
-	color: #fff;
+	color: black;
 	font-size: 20px;
 }
 
 .navbar-header .navbar-toggle {
-	color: #00cca3;
+	
 }
 
 .navbar-header .navbar-toggle:hover,
 .navbar-header .navbar-toggle:focus {
-	background-color:black;
+	background-color: white;
 }
 
-
-head{
-    color:aqua;
+h4 {
+	color: #23527c;
 }
 
 div {
@@ -70,15 +58,48 @@ div {
 #div-main p {
 	color: #98e6d3;
 }
+.centered1{
+  position: fixed;
+  top: 50%;
+  left: 50%;
 
-
-
-.portfolio-thumbnail {
-	background: #98e6d3;
+  background:  #ffd480;
 	border-width: 2px;
 	border-style: inherit;
-	border-color: #bdccdb;
+	height: 293px;
 }
+.centered{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+  background:  #6AABB7;
+	border-width: 2px;
+	border-style: inherit;
+	height: 293px;
+}
+
+.pt{
+	 border: 10px solid transparent;
+    padding: 15px;
+	 border-image: url(ET2.png) 50 round;
+
+}
+
+.portfolio-thumbnail {
+	background: #6AABB7;
+	border-width: 2px;
+	border-style: inherit;
+	height: 293px;
+}
+.portfolio-thumbnail1 {
+	background:  #ffd480;
+	border-width: 2px;
+	border-style: inherit;
+	height: 293px;
+}
+
 
 .portfolio-thumbnail img {
 	height: 400px;
