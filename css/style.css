@@ -16,7 +16,7 @@ body {
 	height: 150px ;
     background-color: #ffd480; 
     color:  #945d60 #23527c;
-    box-shadow: 0px 0.5px 0px #888888;
+  
 
   
 }
@@ -97,7 +97,7 @@ div {
 
 .portfolio-thumbnail img {
 	outline: 5px solid #6AABB7;
-	box-shadow: 8px 8px 5px #888888;
+
 
 }
 
