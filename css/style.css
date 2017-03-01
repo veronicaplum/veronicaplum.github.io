@@ -80,27 +80,20 @@ div {
 	height: 293px;
 }
 
-.pt{
-	 border: 10px solid transparent;
-    padding: 15px;
-	 border-image: url(ET2.png) 50 round;
 
-}
-
-.portfolio-thumbnail {
-	background: #6AABB7;
-	border-width: 2px;
-	border-style: inherit;
-	height: 293px;
-}
-.portfolio-thumbnail1 {
-	background:  #ffd480;
-	border-width: 2px;
-	border-style: inherit;
-	height: 293px;
-}
 
 
 .portfolio-thumbnail img {
-	height: 400px;
+	outline: 5px solid #6AABB7;
+
+}
+
+	
+}
+.portfolio-thumbnail1 img {
+	outline: 5px solid #ffd480;
+
+}
+.thumbnail{
+	background: rgb(230, 225, 225);
 }
