@@ -1,25 +1,22 @@
 html {
-   background: rgb(230, 225, 225); 
+   background: rgb(255, 255, 255); 
 }
 body {
-  background: rgb(230, 225, 225); 
-;
+  background: rgb(255, 255, 255); 
 }
 .main-navbar {
-	background-color:#6AABB7;
+	background-color:#45C5B4;
 	box-shadow: 0px 0.5px 2px #888888;
 }
 .navbar-brand {
-	color: #ffd480;
+	color: #000000;
 }
 .jumbotron {
 	height: 150px ;
-    background-color: #ffd480; 
-    color:  #945d60 #23527c;
-  
-
-  
-}
+    outline: inherit;
+    color: #23527c;
+    outline: 5px solid #6AABB7;
+    }
 
 
 .navbar-default .navbar-brand:hover,
@@ -42,12 +39,12 @@ body {
 	background-color: white;
 }
 
-h4 {
+
+h3 {
 	color: #23527c;
 }
 
 div {
-	color: #ac3973;
 }
 .photo img{
     height: 1800px;
@@ -59,6 +56,7 @@ div {
 
 #div-main p {
 	color: #98e6d3;
+
 }
 .centered1{
   position: fixed;
@@ -86,28 +84,26 @@ div {
     position: absolute; 
     bottom: 1em;
     left: 1.5em;
-  
     font-size: 20px;
-    font-weight: bold;
-    text-shadow: 1.5px 1px #ffffff;
-
+    font-weight: bold; 
   
   }
 
 
 .portfolio-thumbnail img {
 	outline: 5px solid #6AABB7;
+    padding-bottom: 40px;
+    
 
-
-}
-
-	
 }
 .portfolio-thumbnail1 img {
-	outline: 5px solid #ffd480;
-
+	outline: 5px solid #888888;
+    padding-bottom: 40px;
+    
 
 }
+
+
 .thumbnail{
-	background: rgb(230, 225, 225);
+      background: rgb(255, 255, 255); 
 }
