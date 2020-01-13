@@ -14,7 +14,6 @@ body {
 .jumbotron {
 	height: 150px ;
     outline: inherit;
-    color: #23527c;
     outline: 5px solid #6AABB7;
     }
 
@@ -50,6 +49,15 @@ div {
     height: 1800px;
 }
 
+.euromap img{
+    height: 80%;
+    width: 30%;
+}
+
+.fullstretch img{
+    
+    width: 100%;
+}
 #div-main {
 	
 }
@@ -92,12 +100,15 @@ div {
 
 .portfolio-thumbnail img {
 	outline: 5px solid #6AABB7;
+    background:  #45C5B4;
     padding-bottom: 40px;
     
 
 }
 .portfolio-thumbnail1 img {
 	outline: 5px solid #888888;
+    
+    background:  #98e6d3;
     padding-bottom: 40px;
     
 
