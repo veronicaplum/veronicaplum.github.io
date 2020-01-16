@@ -15,6 +15,8 @@ body {
 	height: 150px ;
     outline: inherit;
     outline: 5px solid #6AABB7;
+    font-family: 'libre_franklinbold';
+
     }
 
 
@@ -39,8 +41,16 @@ body {
 }
 
 
+p{
+    font-family: "libre_franklin";
+    font-size: 15px;
+}
+
 h3 {
 	color: #23527c;
+}
+
+h2{
 }
 
 div {
@@ -89,7 +99,7 @@ div {
 }
 
   .bottomleft {
-    position: absolute; 
+   position:absolute; 
     bottom: 1em;
     left: 1.5em;
     font-size: 20px;
@@ -102,7 +112,7 @@ div {
 	outline: 5px solid #6AABB7;
     background:  #45C5B4;
     padding-bottom: 40px;
-    
+
 
 }
 .portfolio-thumbnail1 img {
